@@ -159,7 +159,13 @@ public class eCesta {
     public String identificacionUsuario ()
 
     {
-
+        try {
+             System.out.println(" Modificación 1");
+               bag.Actualizarbono(-50);
+           } catch (Exception e) {
+                   System.out.print("Fallo…….");
+     }
+        
         return getUsuario();
 
     }
