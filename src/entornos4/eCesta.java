@@ -160,15 +160,14 @@ public class eCesta {
 
     {
         eCesta cesta = null;
-        try {
-             System.out.println(" Modificación 1");
-               cesta.Actualizarbono(-50);
-           } catch (Exception e) {
+      try {
+          System.out.println(" Modificación 1");
+                 cesta.Actualizarbono(-50);
+             } catch (Exception e) {
                    System.out.print("Fallo…….");
-     }
+                            }
         
         return getUsuario();
-
     }
 
     private void Actualizarbono(int i) {
